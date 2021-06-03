@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif, arial, helvetica;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	background: greenyellow;
+}
+  
+button {
+	cursor: pointer;
+	padding: 3rem;
+	border-radius: 50%;
+	background: deeppink;
+	font-size: 3rem;
+	border-width: 3px;
+	border-color: white;
+	color: white;
+}
+
+#app {
+  font-size: 2rem;
+}
