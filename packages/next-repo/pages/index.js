@@ -1,5 +1,12 @@
+// import Start from "@ayushi/react-repo"
+import Start from "./components/Start"
+
 function HomePage() {
-    return <div>Welcome to Next.js!</div>
+    return (
+        <div>
+            <Start />
+            Welcome to Next.js!
+        </div>)
   }
   
   export default HomePage
