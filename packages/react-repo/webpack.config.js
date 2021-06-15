@@ -10,9 +10,14 @@ module.exports = {
     entry: __dirname + '/app.js',
     module: {
         rules: [{
-            test: /\.js$/,
+            test: /\.(js|jsx)$/,
             exclude: /node_modules/,
-            loader: 'babel-loader'
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/react']
+                }
+            }
         }]
     },
     output: {
